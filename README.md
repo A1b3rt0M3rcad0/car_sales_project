@@ -12,8 +12,5 @@ Entre outras mais que é possível ver no notebook [Texto do link]([URL_do_link]
 <br>
 Após feita a analise, foi retirado os gráficos e dados que melhor representavam as vendas na base de dados, para assim dar inicio a criação do seguinte dashboard
 ![Dashboard](https://raw.githubusercontent.com/A1b3rt0M3rcad0/car_sales_project/main/images/dashboard.png)
-<br>
-## Previsão com modelo RandomForest
-Após ser realizado 
 
 
