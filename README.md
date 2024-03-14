@@ -18,9 +18,9 @@ Após a análise, selecionei os gráficos e dados que melhor representam as vend
 
 ## Modelo
 
-Na segunda parte do projeto, iniciei a criação de um modelo capaz de prever tanto o número de vendas do próximo mês quanto o faturamento. Para isso, foram necessárias algumas manipulações nos dados, principalmente nas datas, e uma reorganização dos mesmos. A partir disso, foram criadas novas colunas, como:
+Na segunda fase do projeto, dei início à construção de um modelo com o objetivo de prever tanto o número de vendas do próximo mês quanto o faturamento. Para isso, precisei realizar diversas manipulações nos dados, principalmente relacionadas às datas, além de reorganizá-los de forma adequada. Durante esse processo, foram criadas novas colunas, incluindo:
 
-- Billing/Sellings (Faturamento por Venda, ou também podemos chamar de ticket médio de venda).
+- Billing/Sellings (Faturamento por Venda, ou também conhecido como ticket médio de venda).
 - Média Móvel 3 (duas médias móveis, tanto para a coluna de Sellings quanto para a de Billing).
-
-Após as manipulações, os dados foram agrupados somando mês a mês as vendas e o faturamento. No entanto, devido à baixa quantidade de dados, não foi possível obter a convergência do modelo. Para que isso fosse possível, seria necessário coletar mais dados e realizar um novo experimento. Foram utilizadas métricas como Mean Squared Error (MSE) e Mean Absolute Error (MAE) para avaliar o desempenho do modelo. 
+  
+Após as manipulações, os dados foram agregados mensalmente, somando as vendas e o faturamento de cada mês. No entanto, devido à escassez de dados disponíveis, não foi possível alcançar a convergência do modelo. Para resolver essa questão, seria necessário coletar mais dados e realizar um novo experimento. Durante a avaliação do desempenho do modelo, foram utilizadas métricas como Mean Squared Error (MSE) e Mean Absolute Error (MAE).
