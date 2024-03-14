@@ -24,3 +24,5 @@ Na segunda fase do projeto, dei início à construção de um modelo com o objet
 - Média Móvel 3 (duas médias móveis, tanto para a coluna de Sellings quanto para a de Billing).
   
 Após as manipulações, os dados foram agregados mensalmente, somando as vendas e o faturamento de cada mês. No entanto, devido à escassez de dados disponíveis, não foi possível alcançar a convergência do modelo. Para resolver essa questão, seria necessário coletar mais dados e realizar um novo experimento. Durante a avaliação do desempenho do modelo, foram utilizadas métricas como Mean Squared Error (MSE) e Mean Absolute Error (MAE).
+
+Essas e outras análises estão detalhadas no notebook [aqui](https://github.com/A1b3rt0M3rcad0/car_sales_project/blob/main/notebooks/model.ipynb).
